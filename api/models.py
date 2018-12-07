@@ -13,8 +13,8 @@ class Maps(models.Model):
 
 class Distances(models.Model):
     map_name = models.ForeignKey(Maps, on_delete=None)
-    point_A = models.CharField(max_length=150, blank=False)
-    point_B = models.CharField(max_length=150, blank=False)
+    start = models.CharField(max_length=150, blank=False)
+    end = models.CharField(max_length=150, blank=False)
     distance = models.IntegerField()
 
     def __str__(self):
