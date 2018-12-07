@@ -49,7 +49,7 @@ http://127.0.0.1:8000/api/shorterDistance/
 Adicione no Body da requisição um JSON com as seguintes informações:
 
 Para requisição em `api/saveMap/`:
-```json
+```
 {
     "mapName": "SP", //nome do mapa que deseja ser salvo
     "route": //uma lista de distancia, sendo na ordem Ponto origem, Ponto destino e distância
@@ -65,7 +65,7 @@ Para requisição em `api/saveMap/`:
 ```
 
 Para requisição em `api/shorterDistance/`:
-```json
+```
 {
     "mapName": "SP", //nome do mapa que deseja ser feita a busca
     "start": "A", //O ponto inicial (origem)
